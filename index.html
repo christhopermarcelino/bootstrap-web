@@ -6,7 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan Bootstrap</title>
 
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img
+              src="./assets/icons/logo.png"
+              class="bg-transparent border-0"
+              alt="Logo"
+              id="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Pemrograman</a
+              >
+              <a class="nav-link" href="#">Database </a>
+              <a class="nav-link" href="#">Framework</a>
+              <a class="nav-link" href="#">Lainnya</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="mb-5">
+      <section class="bg-light py-5 mb-5">
+        <h1 class="text-center">Belajar Programming itu Mudah</h1>
+        <p class="text-center">
+          Tingkatkan skill programming kamu belajar tutorial pemrograman gratis!
+        </p>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="./assets//images/html-css.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Belajar HTML & CSS"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Belajar HTML & CSS</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Hic minus at velit dignissimos suscipit laboriosam!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="./assets/images/web-programming.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Web Programming"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Web Programming</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Hic minus at velit dignissimos suscipit laboriosam!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="./assets/images/pyhon.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Belajar Python"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Belajar Python</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Hic minus at velit dignissimos suscipit laboriosam!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+              <div class="card">
+                <img
+                  src="./assets/images/uiux-design.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Desain UI/UX"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Desain UI/UX</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Hic minus at velit dignissimos suscipit laboriosam!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-3">
+      <p class="text-center text-light">Copyright &copy; 2022. Marcel</p>
+    </footer>
   </body>
 </html>

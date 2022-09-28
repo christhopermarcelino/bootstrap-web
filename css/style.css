@@ -1,0 +1,11 @@
+#logo {
+    width: 50px;
+    height: auto;
+  }
+  div.card img {
+    height: 14rem;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
